@@ -12,12 +12,11 @@
             var input = Console.ReadLine();
 
             int result = Convert.ToInt32(input);
-            Console.WriteLine(result); 
 
-            Console.WriteLine("Du skrev "+ input);
+            Console.WriteLine("Du skrev "+ result);
             if (result == number)
             {
-                Console.WriteLine("Du gjettet riktig")
+                Console.WriteLine("Du gjettet riktig");
             }
             else
             {
