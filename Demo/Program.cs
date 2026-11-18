@@ -4,6 +4,7 @@
     {
          static void Main(string[] args)
         {
+            Console.WriteLine("Demo 1");
             var random = new Random();
             var number = random.Next(1, 100);
 
