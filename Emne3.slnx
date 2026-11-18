@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="Emne3.csproj" />
+  <Project Path="Demo/Demo.csproj" />
+  <Project Path="RockPaperScissors/RockPaperScissors.csproj" />
 </Solution>
