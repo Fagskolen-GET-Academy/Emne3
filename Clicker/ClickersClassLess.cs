@@ -4,7 +4,7 @@ public class ClickersClassLess
 {
     public static void Run()
     {
-        int[] Clickers = new int[3];
+        int[] clickers = new int[3];
 
         while (true)
         {
@@ -32,11 +32,11 @@ public class ClickersClassLess
 
             if (userInput == "I")
             {
-                Clickers[index] += 1;
+                clickers[index] += 1;
             }
             else if (userInput == "S")
             {
-                Console.WriteLine($"Clicker {number}: has {Clickers[index]} points");
+                Console.WriteLine($"Clicker {number}: has {clickers[index]} points");
             }
         }
     
