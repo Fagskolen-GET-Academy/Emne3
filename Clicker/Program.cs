@@ -25,6 +25,21 @@ class Program
         //     }
         // }
 
-        ClickersClassLess.Run();
+        // ClickersClassLess.Run();
+        
+        
+        var clicker1 = new Clicker();
+        var clicker2 = new Clicker();
+
+        
+        Console.WriteLine("Clicker 2 points ");
+        clicker2.showPoints();
+        
+
+        clicker2.increasePoints();
+        
+        Console.WriteLine("Current points ");
+        clicker1.showPoints();
+
     }
 }
