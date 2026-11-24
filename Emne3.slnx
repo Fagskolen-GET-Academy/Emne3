@@ -3,4 +3,7 @@
   <Project Path="Demo/Demo.csproj" />
   <Project Path="Demo2/Demo2.csproj" />
   <Project Path="RockPaperScissors/RockPaperScissors.csproj" />
+  <Folder Name="/Gruppeoppgaver/">
+    <Project Path="Gruppeoppgaver/Stempelkort/Stempelkort.csproj" />
+  </Folder>
 </Solution>
