@@ -52,18 +52,23 @@ Svar sammen i gruppe før dere skriver kode:
 
 ## Del 2: Lag klassen
 
-Startkoden ligger i denne mappen:
-- `StampCard.cs` har konstruktøren og to metoder med `NotImplementedException`.
-- `Program.cs` er der dere viser at reglene virker.
+Dere skriver klassen `StampCard` fra bunnen av i filen `StampCard.cs`. `Program.cs` er der dere viser at reglene virker.
+
+Klassen skal ha akkurat disse public-delene, slik at det andre teamet kan bruke klassen deres uten å spørre:
+
+| Del | Hva den gjør |
+|---|---|
+| `public StampCard(string ownerName)` | Lager et kort med eiernavn og 0 stempler. Sjekker regel 5. |
+| `public void AddStamp()` | Gir kortet ett stempel. |
+| `public bool RedeemFreeCoffee()` | Returnerer `true` og trekker 10 stempler hvis kortet har minst 10. Ellers returnerer den `false` og endrer ingenting. |
 
 Gjør dette:
-1. Legg til det kortet må huske: eiernavn og antall stempler. Velg selv om det skal være fields eller properties, og om de skal være `public` eller `private`.
-2. Implementer konstruktøren. Den skal sjekke regel 5.
-3. Implementer `AddStamp()`. Den gir kortet ett stempel.
-4. Implementer `RedeemFreeCoffee()`. Den returnerer `true` og trekker 10 stempler hvis kortet har minst 10. Ellers returnerer den `false` og endrer ingenting.
-5. Vis i `Program.cs` at alle reglene virker. Skriv ut hva som skjer med `Console.WriteLine`.
+1. Lag klassen `StampCard` i namespace `Stempelkort`.
+2. Legg til det kortet må huske: eiernavn og antall stempler. Velg selv om det skal være fields eller properties, og om de skal være `public` eller `private`.
+3. Lag konstruktøren og de to metodene i tabellen.
+4. Vis i `Program.cs` at alle reglene virker. Skriv ut hva som skjer med `Console.WriteLine`.
 
-Ikke endre metodenavnene eller hva metodene returnerer. Den andre gruppa skal kunne bruke klassen deres uten å spørre.
+Ikke endre navnene eller returtypene i tabellen.
 
 Når dere er ferdige: Lim inn hele `StampCard.cs` i deres egen team-kanal, i en kodeblokk (```` ```cs ````).
 

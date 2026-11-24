@@ -23,6 +23,6 @@ Kode fra undervisningen i emne 3 og startkode til gruppeoppgaver.
    dotnet run --project Gruppeoppgaver/Stempelkort
    ```
 
-Startkoden kaster `NotImplementedException` til dere har implementert metodene. Det er meningen.
+I Stempelkort lager dere selv klassen `StampCard` i en ny fil, `StampCard.cs`. Se `oppgave.md`.
 
 Du trenger .NET 10 SDK.
