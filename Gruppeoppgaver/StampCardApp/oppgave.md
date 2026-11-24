@@ -63,7 +63,7 @@ Klassen skal ha akkurat disse public-delene, slik at det andre teamet kan bruke 
 | `public bool RedeemFreeCoffee()` | Returnerer `true` og trekker 10 stempler hvis kortet har minst 10. Ellers returnerer den `false` og endrer ingenting. |
 
 Gjør dette:
-1. Lag klassen `StampCard` i namespace `Stempelkort`.
+1. Lag klassen `StampCard` i namespace `StampCardApp`.
 2. Legg til det kortet må huske: eiernavn og antall stempler. Velg selv om det skal være fields eller properties, og om de skal være `public` eller `private`.
 3. Lag konstruktøren og de to metodene i tabellen.
 4. Vis i `Program.cs` at alle reglene virker. Skriv ut hva som skjer med `Console.WriteLine`.
