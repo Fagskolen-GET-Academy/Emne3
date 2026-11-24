@@ -1,6 +1,6 @@
 # Gruppeoppgave: Stempelkortet
 
-Uke 2: Objekter og innkapsling. Asynkron oppgave i grupper på 3.
+Uke 2: Objekter og innkapsling. 
 
 ## Mål
 
@@ -23,18 +23,28 @@ En kafé vil ha et digitalt stempelkort. Kunden får ett stempel per kaffe. Med 
 
 ## Slik jobber dere
 
-Dere jobber når det passer for gruppa, men følg fristene. All kommunikasjon skjer i gruppas tråd på Discord.
+Dere jobber når det passer for gruppa, men følg stegene.
 
-| Del | Hva | Frist |
-|---|---|---|
-| 1 | Analyse uten kode | [dato] |
-| 2 | Lag klassen | [dato] |
-| 3 | Bryt reglene til en annen gruppe | [dato] |
-| 4 | Refleksjon, hver for seg | [dato] |
+| Steg | Hva |
+|---|---|
+| 1 | Analyse uten kode |
+| 2 | Lag klassen |
+| 3 | Bryt reglene til en annen gruppe |
+| 4 | Refleksjon, hver for seg |
+
+I steg 3 roterer teamene:
+
+| Team | Bryter koden til |
+|---|---|
+| 1 | Team 3 |
+| 2 | Team 1 |
+| 3 | Team 2 |
+
+Koden deles i team-kanalene på Discord (#team-1, #team-2, #team-3).
 
 ## Del 1: Analyse uten kode
 
-Svar sammen i gruppetråden før dere skriver kode:
+Svar sammen i gruppe før dere skriver kode:
 1. Hvilke verdier må kortet huske?
 2. Hva skal man kunne *gjøre* med kortet?
 3. Hvilke av reglene over handler om verdiene, og hvilke handler om handlingene?
@@ -55,11 +65,11 @@ Gjør dette:
 
 Ikke endre metodenavnene eller hva metodene returnerer. Den andre gruppa skal kunne bruke klassen deres uten å spørre.
 
-Når dere er ferdige: Lim inn hele `StampCard.cs` i tråden til gruppa dere får tildelt.
+Når dere er ferdige: Lim inn hele `StampCard.cs` i deres egen team-kanal, i en kodeblokk (```` ```cs ````).
 
 ## Del 3: Bryt reglene
 
-Dere får `StampCard.cs` fra en annen gruppe. Legg den i prosjektet deres i stedet for deres egen.
+Hent `StampCard.cs` fra team-kanalen til teamet dere skal bryte (se tabellen over). Legg den i prosjektet deres i stedet for deres egen.
 
 Prøv å få kortet til å bryte en av reglene, **bare fra `Program.cs`**. Dere får ikke endre `StampCard.cs`.
 
@@ -69,13 +79,13 @@ Eksempler på ting å prøve:
 - Kan dere løse inn gratis kaffe med 9 stempler?
 - Kan dere lage et kort uten navn, eller endre navnet etterpå?
 
-Skriv i tråden til den andre gruppa:
+Skriv i team-kanalen til teamet dere brøt:
 - hvilke regler dere klarte å bryte, og hvilken kodelinje som gjorde det
 - hvilke regler som holdt, og hva i klassen som stoppet dere
 
 ## Del 4: Refleksjon (hver for seg)
 
-Skriv 3–5 setninger i gruppetråden:
+Del 3–5 setninger i gruppechatten:
 1. Hvilken regel var lettest å bryte i klassen dere fikk, og hva i koden gjorde det mulig?
 2. Hva endret dere, eller hva ville dere endret, i deres egen klasse etter tilbakemeldingen?
 3. Forklar med egne ord hva innkapsling er, med et eksempel fra stempelkortet.
@@ -89,4 +99,6 @@ Skriv 3–5 setninger i gruppetråden:
 
 - Hvis noe utenfor klassen kan skrive `card.Stamps = 100;`, er regel 4 brutt.
 - En property kan ha `public` get og `private` set.
+  - https://www.w3schools.com/cs/cs_access_modifiers.php
+  - https://www.w3schools.com/cs/cs_properties.php
 - Sjekk regelen i metoden *før* dere endrer verdien.
