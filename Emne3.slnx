@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="CardsApp/CardsApp.csproj" />
+  <Project Path="CardsApp2/CardsApp2.csproj" />
   <Project Path="Clicker/Clicker.csproj" />
   <Project Path="Demo/Demo.csproj" />
   <Project Path="Demo2/Demo2.csproj" />
