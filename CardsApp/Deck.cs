@@ -17,12 +17,11 @@ public class Deck
                 Suit suit = (Suit)suitIndex;
                 Rank rank = (Rank)rankIndex;
                 Card card = new Card(suit, rank);
-                cards.Add(card);
+                cards?.Add(card);
             }
         }
     }
     
-
     public Card GetRandomCard()
     {
         Random rnd = new Random();

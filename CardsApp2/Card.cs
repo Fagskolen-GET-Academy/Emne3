@@ -9,6 +9,7 @@ public class Card
    {
        Verdi = verdi;
        Farge = farge;
+       
        // Rank = verdi;
        // int = number;
    }
